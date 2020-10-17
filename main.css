@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+.profile-card{
+  width: 800px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  font-family: "didot";
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  background: cornsilk;
+}
+
+.name-headline{
+  width: 50%;
+  text-align: center;
+  background: tan;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 30px;
+}
+
+span {
+  color: antiquewhite;
+}
+h3 {
+  font-size: 100px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  line-height: .9;
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+.left-writing {
+  display: grid;
+  height: 70vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: max-content max-content;
+}
+
+
+
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+img:hover {
+  transform: scale(1.3);
+}
+
+.profile-image {
+  display: block;
+  margin: auto;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.links{
+  width: 50%;
+  text-align: center;
+  background: tan;
+  padding-bottom: 40px;
+}
+
+a {
+  color: antiquewhite;
+}
+  
+.about{
+  width: 50%;
+  background: cornsilk;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
