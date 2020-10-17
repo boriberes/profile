@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: row;
   background: cornsilk;
+  width: 100%;
 }
 
 .name-headline{
@@ -38,6 +39,7 @@ h1 {
 span {
   color: antiquewhite;
 }
+
 h3 {
   font-size: 100px;
   writing-mode: vertical-lr;
@@ -68,12 +70,14 @@ img {
 }
 
 img:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .profile-image {
   display: block;
   margin: auto;
+  width: 50%; 
+  text-align: center;
 }
 
 .content{
